@@ -22,3 +22,5 @@ Useful commands for GitHub ✨
   confetti()
 ```
 ###### <a href="https://github.com/catdad/canvas-confetti?tab=readme-ov-file">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.kirilv.com/canvas-confetti/">Website Example</a>
+
+## GIT Pages
