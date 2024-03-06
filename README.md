@@ -52,6 +52,22 @@ Si después de haber hecho varios commits queremos ver de una forma más ordenad
 ```sh
  git log --graph --decorate --all --oneline
   ```
+vamos a crear un alias del anterior comando para simplificarlo
+```sh
+ git config --global alias.allcommits "log --graph --decorate --all --oneline"
+  ```
+Si queires que un archivo nunca esté dentro de un commit creas el archivo .gitignore
+```sh
+  **/TestFile
+  ```
+Vemos los cambios realizados 
+```sh
+  git diff
+  ```
+Queremos ir a un commit concreto
+```sh
+  git checkout "Hash del commit"
+  ```
 #### Version Checker
 ```sh
   git -v
