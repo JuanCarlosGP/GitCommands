@@ -24,6 +24,26 @@ Vamos al fichero .gitconfig el cual se encuentra dentro de nuestra carpeta de us
   git init
   ```
 Se nos creará una carpeta oculta para que git tenga sus parámetros, esto indicará que este directorio representa un repositorio
+```sh
+  git status
+  ```
+Para saber que commits y cambios hay realizados y demás datos
+para añadir un fichero al commit hacemos:
+```sh
+  git add "FileName"
+  ```
+o bien si queremos añadir la carpeta principal entera hacemos
+```sh
+  git add .
+  ```
+para poder hacer un commit de lo que está aceptado en el status hacemos:
+```sh
+  git commit -m "Enunciado del commit"
+  ```
+Revisamos los commits
+```sh
+  git log
+  ```
 #### Version Checker
 ```sh
   git -v
