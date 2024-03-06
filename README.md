@@ -44,6 +44,14 @@ Revisamos los commits
 ```sh
   git log
   ```
+Si realizamos un cambio sin haber hecho ningun commit y queremos volver al ultimo guardado:
+```sh
+  git checkout "nombre del fichero"
+  ```
+Si después de haber hecho varios commits queremos ver de una forma más ordenada el historial, usamos:
+```sh
+ git log --graph --decorate --all --oneline
+  ```
 #### Version Checker
 ```sh
   git -v
