@@ -3,9 +3,27 @@ Useful commands for GitHub ✨ <br>
 Lo primero de todo es instalar Git, para instalar git nos vamos a https://git-scm.com/
 o bien si estamos en windows nos instalamos winget https://learn.microsoft.com/en-us/windows/package-manager/winget/#install-winget y luego nos instalamos Git con winget install --id Git.Git -e --source winget
 
-Una vez instalado Git hay que tener en cuenta que únicamente funciona en terminales bash, junto con la instalación de git tienes una terminal bash pero vale cuaquiera que reconozca tu sitema.
+Una vez instalado Git hay que tener en cuenta que únicamente funciona en terminales bash, junto con la instalación de git tienes una terminal bash pero vale cuaquiera que reconozca tu sitema. Puedes añadir gitbash a tu terminal de windows como un perfil nuevo.
 
 ## GIT
+#### Primeros Pasos
+Iniciar sesión (Obligatorio), para ello proporcionamos un usuario y un email
+Establecemos en el equipo local el usuario y correo electronico
+```sh
+  git config --global user.name "YourName"
+  ```
+```sh
+  git config --global user.email "YourEmail"
+  ```
+Vamos al fichero .gitconfig el cual se encuentra dentro de nuestra carpeta de usuario, ahí podemos ver tanto el usuario como el correo
+#### como empezar un proyecto
+```sh
+  cd "directorio/principal/del/proyecto"
+  ```
+```sh
+  git init
+  ```
+Se nos creará una carpeta oculta para que git tenga sus parámetros, esto indicará que este directorio representa un repositorio
 #### Version Checker
 ```sh
   git -v
