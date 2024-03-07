@@ -68,6 +68,14 @@ Queremos ir a un commit concreto
 ```sh
   git checkout "Hash del commit"
   ```
+Queremos borrar a partir de un commit, toda su ruta
+El nuevo Head será el comit del cualelijamos donde quieremos empezar el borrado
+```sh
+  git reset --hard "Hash del commit"
+  ```
+```sh
+  git reflog 
+  ```
 #### Version Checker
 ```sh
   git -v
