@@ -100,4 +100,3 @@ El nuevo Head será el comit del cualelijamos donde quieremos empezar el borrado
 
 ## GIT Pages
 
-
