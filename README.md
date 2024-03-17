@@ -119,6 +119,10 @@ borra el commit temporal que al que ya has vuelto
   ```
 
 https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
+
+
+ https://docs.github.com/es/authentication
+
  
 #### Version Checker
 ```sh
