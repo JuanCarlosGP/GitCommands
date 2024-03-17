@@ -118,8 +118,8 @@ borra el commit temporal que al que ya has vuelto
   git stash drop
   ```
 
-
-
+https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
+ 
 #### Version Checker
 ```sh
   git -v
