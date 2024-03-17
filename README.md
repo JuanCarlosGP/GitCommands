@@ -77,6 +77,49 @@ podemos ver un historial completo de interacciones
 ```sh
   git reflog 
   ```
+Añadimos un tag al commit en el que estemos (sustituto del hash)
+```sh
+  git tag "nombre"
+  ```
+ver el listado de tags 
+```sh
+  git tag
+  ```
+moverte a un tag
+```sh
+  git checkout tags/"nombre del tag"
+  ```
+Creamos una rama para tener en paralelo el proyecto con otras funciones, se creará en el head
+```sh
+  git branch "nombre rama"
+  ```
+Para volver a nuestra rama anterior (podremos cambiarla si la temenos en local, sino checkout)
+```sh
+  git switch "nombre de la rama"
+  ```
+Para combinar una branch ponemos (nos situamos con el head)
+```sh
+  git merge "nombre al que quieras mergear"
+  ```
+Almacena temporalmente un proceso que se estaba haciendo (commit temporal)
+```sh
+  git stash
+  ```
+Muestra el lisado de commits temporales
+```sh
+  git stash list
+  ```
+recupera el commet temporal
+```sh
+  git stash pop
+  ```
+borra el commit temporal que al que ya has vuelto
+```sh
+  git stash drop
+  ```
+
+
+
 #### Version Checker
 ```sh
   git -v
